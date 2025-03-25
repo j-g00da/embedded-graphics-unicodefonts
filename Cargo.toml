@@ -1,0 +1,14 @@
+[package]
+name = "embedded-graphics-unicodefonts"
+description = "Monospaced embedded-graphics fonts with more glyphs"
+version = "0.0.1"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/j-g00da/embedded-graphics-unicodefonts"
+repository = "https://github.com/j-g00da/embedded-graphics-unicodefonts"
+keywords = ["embedded-graphics", "fonts"]
+categories = ["embedded"]
+
+[dependencies]
+embedded-graphics = "0.8.1"
