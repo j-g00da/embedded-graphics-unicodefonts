@@ -1,6 +1,6 @@
-pub const BASIC_6X10: ::embedded_graphics::mono_font::MonoFont = ::embedded_graphics::mono_font::MonoFont {
+pub const MONO_6X10: ::embedded_graphics::mono_font::MonoFont = ::embedded_graphics::mono_font::MonoFont {
     image: ::embedded_graphics::image::ImageRaw::new(
-        include_bytes!("raw/basic_6x10.data"),
+        include_bytes!("raw/mono_6x10.data"),
         96u32,
     ),
     glyph_mapping: &::embedded_graphics::mono_font::mapping::StrGlyphMapping::new(
