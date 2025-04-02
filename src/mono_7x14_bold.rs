@@ -1,6 +1,6 @@
 pub const MONO_7X14_BOLD: ::embedded_graphics::mono_font::MonoFont = ::embedded_graphics::mono_font::MonoFont {
     image: ::embedded_graphics::image::ImageRaw::new(
-        include_bytes!("raw/mono_7x14b.data"),
+        include_bytes!("raw/mono_7x14B.data"),
         112u32,
     ),
     glyph_mapping: &::embedded_graphics::mono_font::mapping::StrGlyphMapping::new(

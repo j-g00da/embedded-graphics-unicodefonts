@@ -1,6 +1,6 @@
 pub const MONO_6X13_ITALIC: ::embedded_graphics::mono_font::MonoFont = ::embedded_graphics::mono_font::MonoFont {
     image: ::embedded_graphics::image::ImageRaw::new(
-        include_bytes!("raw/mono_6x13o.data"),
+        include_bytes!("raw/mono_6x13O.data"),
         96u32,
     ),
     glyph_mapping: &::embedded_graphics::mono_font::mapping::StrGlyphMapping::new(
