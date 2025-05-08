@@ -1,3 +1,5 @@
+#![no_std]
+
 mod mono_8x13_bold;
 pub use mono_8x13_bold::MONO_8X13_BOLD;
 mod mono_5x7;
