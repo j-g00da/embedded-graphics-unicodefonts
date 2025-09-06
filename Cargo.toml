@@ -11,5 +11,15 @@ keywords = ["embedded-graphics", "fonts"]
 categories = ["embedded"]
 exclude = ["/assets/"]
 
-[dependencies]
+[workspace]
+members = ["tools/bdf-atlas-converter"]
+default-members = ["."]
+
+[workspace.package]
+edition = "2021"
+
+[workspace.dependencies]
 embedded-graphics = "0.8.1"
+
+[dependencies]
+embedded-graphics.workspace = true

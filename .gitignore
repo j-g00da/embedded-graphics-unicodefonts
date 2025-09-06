@@ -1,2 +1,3 @@
 /target
 /.idea
+/tools/bdf-atlas-converter/Cargo.lock

@@ -1,0 +1,12 @@
+[package]
+name = "bdf-atlas-converter"
+version = "0.1.0"
+edition.workspace = true
+
+[dependencies]
+embedded-graphics-unicodefonts = { path = "../.." }
+embedded-graphics.workspace = true
+eg-font-converter = { git = "https://github.com/embedded-graphics/bdf", rev = "667ad278ad267f80cf493defacedce75c11338b6" }
+bdf-parser = { git = "https://github.com/embedded-graphics/bdf", rev = "667ad278ad267f80cf493defacedce75c11338b6", package = "bdf-parser" }
+clap = { version = "4.4", features = ["derive"] }
+color-eyre = "0.6"
